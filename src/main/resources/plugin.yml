@@ -1,0 +1,5 @@
+name: NLib
+version: '0.1'
+main: com.github.xnotro.Core
+authors: [ xnotro ]
+description: custom lib for my plugins
