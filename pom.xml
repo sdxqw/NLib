@@ -12,10 +12,35 @@
     <name>NLib</name>
 
     <description>custom lib for my plugins</description>
+    <url>https://github.com/xNotro/NLib</url>
+
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git://github.com/xNotro/NLib.git</connection>
+        <developerConnection>scm:git:ssh://github.com:xNotro/NLib.git</developerConnection>
+        <url>http://github.com/xNotro/NLib/tree/master</url>
+    </scm>
+
+
+    <developers>
+        <developer>
+            <name>xNotro</name>
+            <email>xntrowdev@gmail.com</email>
+            <organization>com.github.xnotro</organization>
+            <organizationUrl>https://github.com/xNotro</organizationUrl>
+        </developer>
+    </developers>
 
     <build>
         <plugins>
