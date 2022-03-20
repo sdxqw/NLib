@@ -9,6 +9,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings( "ALL" )
 public class GUI {
 
     /**

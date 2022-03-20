@@ -9,6 +9,7 @@ import java.net.URL;
 import java.util.Scanner;
 import java.util.function.Consumer;
 
+@SuppressWarnings( "ALL" )
 public class Updater {
     private final JavaPlugin plugin;
     private final int resourceId;
