@@ -1,4 +1,4 @@
-package com.github.xnotro.updater;
+package io.github.xnotro.updater;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;

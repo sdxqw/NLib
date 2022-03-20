@@ -1,4 +1,4 @@
-package com.github.xnotro.utils;
+package io.github.xnotro.utils;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;

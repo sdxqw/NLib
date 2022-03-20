@@ -1,6 +1,6 @@
-package com.github.xnotro.settings;
+package io.github.xnotro.settings;
 
-import com.github.xnotro.utils.Messages;
+import io.github.xnotro.utils.Messages;
 import org.apache.commons.lang.Validate;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.InvalidConfigurationException;

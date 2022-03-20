@@ -1,4 +1,4 @@
-package com.github.xnotro.utils;
+package io.github.xnotro.utils;
 
 import org.bukkit.ChatColor;
 import org.jetbrains.annotations.Contract;

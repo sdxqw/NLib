@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.xnotro</groupId>
+    <groupId>io.github.xnotro</groupId>
     <artifactId>NLib</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -47,7 +47,7 @@
         <developer>
             <name>xNotro</name>
             <email>xntrowdev@gmail.com</email>
-            <organization>com.github.xnotro</organization>
+            <organization>io.github.xnotro</organization>
             <organizationUrl>https://github.com/xNotro</organizationUrl>
         </developer>
     </developers>
@@ -101,20 +101,6 @@
                         <id>attach-javadocs</id>
                         <goals>
                             <goal>jar</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-gpg-plugin</artifactId>
-                <version>1.5</version>
-                <executions>
-                    <execution>
-                        <id>sign-artifacts</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>sign</goal>
                         </goals>
                     </execution>
                 </executions>
