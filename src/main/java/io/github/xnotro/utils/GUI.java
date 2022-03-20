@@ -20,7 +20,7 @@ public class GUI {
      * @param inventorySlot Set the inventory slot.
      * @param displayName Set the item name.
      * @param loreString Set the item lore.
-     * @return The requested ItemStack..
+     * @return The requested ItemStack.
      */
     public static @NotNull ItemStack createItem(Inventory inventory, String material, int amount, int inventorySlot, String displayName, String @NotNull ... loreString) {
         ItemStack item;
